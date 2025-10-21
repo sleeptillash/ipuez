@@ -4,7 +4,7 @@ This is the Flask backend API for the GGSIPU Notes project.
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the `backend` folder with the following variables:
 
@@ -18,7 +18,7 @@ Replace the values with your actual Supabase database credentials.
 
 ---
 
-## 🚀 Running the Backend
+##  Running the Backend
 
 ### 1. Install dependencies
 
