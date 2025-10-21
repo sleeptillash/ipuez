@@ -14,9 +14,6 @@ DB_USER=postgres
 DB_PASS=your-db-password
 DB_PORT=5432
 
-yaml
-Copy code
-
 Replace the values with your actual Supabase database credentials.
 
 ---
@@ -27,7 +24,8 @@ Replace the values with your actual Supabase database credentials.
 
 ```bash
 pip install -r requirements.txt
+```
 2. Run the Flask app
-bash
-Copy code
+```bash
 python app.py
+```
