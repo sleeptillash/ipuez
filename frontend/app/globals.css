@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+
+body{
+background: #000;
+}
+
+.home{
+
+background: rgb(36, 39, 5);
+
+background: linear-gradient(90deg, rgb(50, 51, 36) 0%, rgb(38, 39, 21) 100%);
+
+background: -moz-linear-gradient(90deg, rgb(17, 16, 16) 0%, rgb(60, 60, 24) 100%);
+
+background: -webkit-linear-gradient(90deg, rgb(23, 30, 26) 0%, rgb(0, 0, 0) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#43470B", endColorstr="#767E20", GradientType=1 );
+
+}
+
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-size: 10px;
+  padding-right: 2.5rem; /* Leave space for the arrow */
+  border-radius: 0.375rem;
+  border: 1px solid #ccc;
+  color: black;
+  font-size: 1rem;
+}
+option
+{
+  background-color: rgb(1, 23, 1);
+  color: white;
+}
